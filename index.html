@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width-device-width">
+    <meta charset="utf-8">
+    <title>Project Example</title>
+<style>
+.cabeza {
+    background: #1A3C69;
+    color: white;
+    position: relative;
+    padding: 20px;
+}
+
+.cabeza pre{
+    padding: 10px;
+}
+
+.cabeza button {
+    background: deepskyblue;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 32px;
+    right: 45px;
+}
+li {
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background: #1A3C69;
+    position: relative;
+    text-align: center;
+}
+
+.mensaje {
+    background: #C0CDDA;
+}
+
+.mensaje p {
+    text-align: right; 
+    flex: 1;
+}
+
+.cabeza img {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+
+}
+.cabeza pre{
+    text-align: left;
+}
+
+.padre{
+display: flex;
+
+}
+.item{
+    opacity: .9;
+    width: 200px;
+    height: 100px;
+    border: 1px solid blue;
+    display: block;
+    margin: 100px;
+    
+   
+    
+}
+</style>
+
+
+</head>
+
+<body>
+    <div class="cabeza">
+        <header>
+            <p><Strong>Header Logo</Strong></p>
+            <nav>
+            <ul >
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>    
+            </nav>
+            <h1>This website is awesome</h1>
+            <pre>this website has some subtext that goes here under
+the main little.Its a smaller font and the color 
+is lowercontrast.
+            </pre>
+            <img src="placeholder.jpg" alt="Imagen de relleno" style="width: 400px; height: 100px; background-color: #ccc;">
+
+            <button>Sing up</button>
+        </header>
+    </div>
+        <main>
+        <h1>Some random information</h1>
+        <section class="padre">
+            <div class="item">
+                
+            </div>
+        
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </section>
+
+        <div class="mensaje">
+            <p>this is an inspirin quote, opr a testimonial
+                from a costumer. Maybe its just filling up
+                space, or maybe people will actually read it.who knows?
+                all i know is that it look nice.
+            </p>
+            <p><small><Strong>Thor,God of thunder</Strong></small></p>
+        </div>
+    </main>
+    <div class="pie">
+    <footer>Copyright @ the odin project 2021
+    </footer>
+    </div>
+</body>
+</html>
